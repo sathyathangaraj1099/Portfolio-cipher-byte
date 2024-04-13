@@ -1,0 +1,445 @@
+
+.portfolio-container {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: black;
+    border-bottom: 1px solid beige;
+}
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+.list {
+    margin-right: 30px;
+}
+.header {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+.header-container {
+    box-shadow: 4px;
+    
+}
+.nav-link {
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-link:hover {
+    transform: scale(1.2);
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    margin-top: 0%;
+    color: aliceblue;
+    background-color: black;
+    height: 80vh;
+    
+}
+
+.name {
+    font-family: 'Sans-Serif';
+    font-size: 34px;
+    font-weight: bold;
+}
+.my-name {
+    font-family: 'Sans-Serif';
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.profession {
+    font-family: 'Sans-Serif';
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.detail {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.image {
+    width: 25%;
+    height: 340px;
+    border-radius: 50%;
+    align-self: center;
+    border: 2px solid goldenrod;
+
+}
+.image:hover{
+    transform: scale(0.9);
+}
+
+.details-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#button {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ca80e9;
+    border-color: transparent;
+}
+
+.resume {
+    margin-top: 20px;
+    width: 50%;
+    height: 40%;
+    padding: 7px;
+    border-radius: 20px;
+    border-color: #9f19d7;
+    background-color: #bf66e5;
+}
+.me {
+    color: #9f19d7;
+    font-family: 'Sans-Serif';
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.about-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 75vh;
+    color: aliceblue;
+    height: 100vh;
+    background-color: rgb(19, 19, 21);
+}
+.about-myself {
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+.skills-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.skills-section {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#skills {
+    min-height: 12%;
+    width: 20%;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.services-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.service {
+    background-color: #28232a;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px;
+    font-size: 18px;
+}
+.service-name {
+    margin-bottom: 20px;
+}
+#icon {
+    height: 20%;
+    width: 20%;
+}
+
+.me {
+    color: #9f19d7;
+    font-family: 'Sans-Serif';
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: aliceblue;
+    align-self: center;
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.certificates-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: aliceblue;
+    align-self: center;
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.certificate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project {
+    max-width: 20%;
+    max-height: 20%;
+    margin: 10px;
+    border-radius: 20px;
+}
+.certificate {
+    max-width: 20%;
+    max-height: 20%;
+    margin: 10px;
+    border-radius: 5px;
+}
+.project-name {
+    margin-top: 10px;
+}
+.certificate-name {
+    margin-top: 10px;
+}
+.heading-project {
+    margin-top: 100px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    min-width: 100%;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.t-name {
+    min-width: 50%;
+    margin: 10px;
+}
+
+.email {
+    min-width: 50%;
+    margin: 10px;
+}
+
+.mob {
+    min-width: 50%;
+    margin: 10px;
+}
+
+.subject {
+    min-width: 50%;
+    margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .heading-project {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-section {
+        height: 50vh;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin-bottom: 40px;
+    }
+
+    .image {
+        align-self: flex-start;
+        margin-left: 30px;
+        height: 30%;
+        width: 50%;
+        order: 0;
+        margin-top: 110px;
+    }
+
+    .details-container {
+        order: 1;
+    }
+}
+
+.skills-page {
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    border-radius: 35px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    align-items: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+    font-size: 30px;
+    margin: 20px;
+    font-family: Sans Seris;
+}
+.card:hover {
+    transform: translateY(20px);
+}
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 176, 155, 0.5), rgba(150, 201, 61, 1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+.card:hover:before {
+    opacity: 1;
+}
+.card .pr1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+}
+.card .info {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.link-btn {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+.link-icon {
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+}
