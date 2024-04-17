@@ -527,7 +527,7 @@ ul li a {
     display: flex;
     flex-direction: row;
     align-self: self-end;
-    background-color: rgb(24, 69, 153);
+    background-color: rgb(14, 82, 210);
     padding: 10px;
     border-radius: 5px;
     border-width: 0px;
@@ -538,7 +538,9 @@ ul li a {
     align-items: center;
     font-size: 16px;
 }
-
+.submit-btn:hover {
+    transform: scale(1.2);
+}
 @media (max-width: 767px){
     .container {
         display: flex;
@@ -566,7 +568,9 @@ ul li a {
         padding: 15px;
         overflow: hidden;
     }
-
+    .submit-btn:hover {
+        transform: scale(1.2);
+    }
 }
 @media (max-width: 767px){
     .contact-container {
