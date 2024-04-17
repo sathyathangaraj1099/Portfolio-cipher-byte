@@ -629,6 +629,7 @@ ul li a {
 @media (max-width: 767px) {
     .image {
         width: 40%;
+        height: 40%;
     }
     .certificate {
         min-width: 40%;
