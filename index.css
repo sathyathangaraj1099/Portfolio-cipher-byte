@@ -84,21 +84,25 @@ ul li a {
 }
 .my-name {
     font-family: 'Sans-Serif';
-    font-size: 24px;
+    font-size: 34px;
     margin-bottom: 10px;
     font-weight: bold;
 }
-
+.my-profession {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #9f19d7;
+}
 .profession {
     font-family: 'Sans-Serif';
-    font-size: 40px;
+    font-size: 26px;
     font-weight: bold;
     margin-top: 10px;
 }
 
 .detail {
     font-family: 'Roboto';
-    font-weight: bold;
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -109,7 +113,7 @@ ul li a {
     height: 340px;
     border-radius: 50%;
     align-self: center;
-    border: 2px solid goldenrod;
+    border: 0px;
     transition: left 2s ease;
     transform: translate(-30%);
 }
@@ -129,13 +133,42 @@ ul li a {
 }
 
 #button {
+    position: relative;
+    display: inline;
     width: 50px;
     height: 50px;
     border-style: solid;
     border-radius: 50%;
     margin-right: 10px;
+    background-color: transparent;
+    border-color: #9f19d7;
+    border-width: 2px;
+    color: #ca80e9;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+#button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #9f19d7;
+    z-index: -1;
+    transition: .5s;
+    overflow: hidden;
+}
+#button:hover::before {
     background-color: #ca80e9;
-    border-color: transparent;
+    width: 100%;
+    overflow: hidden;
+}
+#button:hover {
+    color: black;
 }
 
 .resume {
@@ -145,12 +178,19 @@ ul li a {
     padding: 7px;
     border-radius: 20px;
     border-color: #9f19d7;
-    background-color: #bf66e5;
+    background-color: #9f19d7;
     font-size: 18px;
     font-weight: bold;
 }
+.resume:hover {
+    transform: scale(1.2);
+    color: aliceblue;
+}
 .download {
     text-decoration: none;
+}
+.download:hover {
+    color: aliceblue;
 }
 .me {
     color: #9f19d7;
@@ -652,4 +692,26 @@ ul li a {
         margin: 10px;
     }
 
+}
+
+.home-container h1 span{
+    position: relative;
+}
+.home-container h1 span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.1s;
+}
+
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
 }
