@@ -190,6 +190,8 @@ ul li a {
     }
     .about-myself {
         padding: 20px;
+        margin: 20px;
+        width: auto;
     }
 }
 .about-myself {
