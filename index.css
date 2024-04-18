@@ -103,10 +103,11 @@ ul li a {
 }
 
 .detail {
-    font-family: 'Roboto';
+    font-family: sans-serif;
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .image {
@@ -207,6 +208,8 @@ ul li a {
 
 .my-name-sathya {
     color: #9f19d7;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .about-section {
     text-align: center;
