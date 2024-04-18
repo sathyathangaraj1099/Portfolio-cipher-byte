@@ -190,6 +190,7 @@ ul li a {
 }
 .download {
     text-decoration: none;
+    color: #28232a;
 }
 .download:hover {
     color: aliceblue;
